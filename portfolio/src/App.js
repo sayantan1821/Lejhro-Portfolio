@@ -2,12 +2,12 @@ import React from "react"
 import './App.css';
 import Testimonials from "./components/Testimonials";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <div className="App">
-      <Projects/>
+<Portfolio/>
      <Testimonials/>
     </div>
   );

@@ -1,12 +1,12 @@
-import React from 'react'
-import './aboutPage.css'
-function aboutPage() {
+import React from 'react';
+import './aboutPage.css';
+function AboutPage() {
     return (
-        <div class="image-aboutus-banner"style="margin-top:70px">
-        <div class="container">
-         <div class="row">
-             <div class="col-md-12">
-              <h1 class="lg-text">About Me</h1>
+        <div className="image-aboutus-banner">
+        <div className="container">
+         <div className="row">
+             <div className="col-md-12">
+              <h1 className="lg-text">About Me</h1>
               
             </div>
          </div>
@@ -17,4 +17,4 @@ function aboutPage() {
     )
 }
 
-export default aboutPage
+export default AboutPage;

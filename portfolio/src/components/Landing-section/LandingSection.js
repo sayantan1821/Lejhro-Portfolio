@@ -1,9 +1,11 @@
 import React from 'react'
+import imgf from '../../assets/Test.svg';
+import './LandingSection.css';
 
 function LandingSection() {
     return (
-        <div>
-            <h1>Landing Section</h1>
+        <div className='landing-section'>
+            <img src='../../assets/Test.svg' />
         </div>
     )
 }

@@ -1,4 +1,55 @@
 .landing-section {
     height: 100vh;
     width: 100vw;
+    display: flex;
 }
+.nav-logo {
+    height: 5%;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+.working-img {
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.head-text {
+    width: 25vw;
+    /* align-self: center; */
+}
+.head-text h1 {
+    position: relative;
+    left: 35%;
+    top: 20%;
+    font-size: 4rem;
+    color: rgba(0, 162, 255, 0.479);
+}
+.head-text h3 {
+    position: relative;
+    left: 35%;
+    top: 30%;
+    line-height: 170%;
+    font-size: 1.9rem;
+}
+@media only screen and (max-width: 600px) {
+    .landing-section {
+        display: flex;
+        align-items: center;
+    }
+    .working-img {
+        height: 30%;
+        position: absolute;
+        top: 8%;
+    }
+    .head-text h1 {
+        width: 50vw;
+        font-size: 1.5rem;
+        margin: 50% 0;
+    }
+    .head-text h3 {
+        width: 50vw;
+        font-size: 1rem;
+    }
+  }
